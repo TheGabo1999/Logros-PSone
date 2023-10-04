@@ -9,7 +9,7 @@ const achievementUnlock = document.getElementById('achievementUnlock');
 // Intenta recuperar el src de LocalStorage
 const savedSrc = localStorage.getItem('savedSrc');
 if (savedSrc) {
-    miImagen.src = savedSrc;
+    achievementImage.src = savedSrc;
 }
 
 // Agrega un evento de clic al botón
@@ -24,7 +24,7 @@ achievementUnlock.addEventListener('click', function() {
     }
 
     // Guarda el nuevo src en LocalStorage
-    localStorage.setItem('savedSrc', miImagen.src);
+    localStorage.setItem('savedSrc', achievementImage.src);
 
     // Invierte el valor booleano para el próximo clic
     imagen1Visible = !imagen1Visible;
