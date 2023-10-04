@@ -1,0 +1,160 @@
+* {
+	font-family: 'Open Sans', sans-serif;;
+	background-color: #1a1a1a;
+	color: #fff;
+}
+
+#game__header-title {
+	background: #2e2d2d;
+	height: 30px;
+}
+
+.game__header-box {
+	background: #2c97fa;
+	height: 31px;
+}
+
+.game__header h2 {
+	color: #fff;
+	background: #2f53f5;
+}
+
+.game__header-container{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background: #2e2d2d;
+}
+
+.game__info-box {
+	margin-top: 15px;
+}
+
+.game__info {
+	background: #2e2d2d;
+	font-size: 13px;
+}
+
+.game__info-data {
+	background: #2e2d2d;
+	font-size: 13px;
+	font-weight: 600;
+	color: #2c97fa;
+}
+
+.game__header {
+	width: 1000px;
+	background: #2e2d2d;
+	display: inline-block;
+	margin: 50px;
+	padding: 20px;
+}
+
+.game__header-info {
+	background: #2e2d2d;
+	padding: 3px;
+}
+
+.game__header-img {
+	background: #2e2d2d;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+.game__header-img img {
+	width: 138px;
+}
+
+input:placeholder {
+	color: white;
+}
+
+.achievements-header {
+	width: 1000px;
+	background: #2e2d2d;
+	display: inline-block;
+	margin: 50px;
+	padding: 20px;
+}
+
+.achievements-header h2 {
+	color: #fff;
+	background: #2e2d2d;
+}
+
+.achievement-img {
+	display: flex;
+	background: #2e2d2d;
+}
+
+.achievement-img-2 {
+	display: flex;
+	background: #212020;
+}
+
+.achievement-box {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background: #2e2d2d;
+}
+
+.achievement-box-2 {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background: #212020;
+}
+
+.achievement__info {
+	display: flex;
+	flex-direction: column; 
+	background: #2e2d2d;
+	padding: 10px;
+	width: 727px;
+	flex-shrink: 10;
+}
+
+.achievement__info-2 {
+	display: flex;
+	flex-direction: column;
+	background: #212020;
+	padding: 10px;
+	width: 727px;
+	flex-shrink: 10;
+}
+
+.achievement__info-title {
+	background: #2e2d2d;
+	color: #cc9900;
+}
+
+.achievement__info-title-2 {
+	background: #212020;
+	color: #cc9900;
+}
+
+.achievement__info-desc {
+	background: #2e2d2d;
+	color: #2c97fa;
+}
+
+.achievement__info-desc-2 {
+	background: #212020;
+	color: #2c97fa;
+}
+
+.achievement-button {
+	width: 150px;
+	height: 50px;
+}
+
+.other-games {
+	position: absolute;
+	top: 400px;
+	left: 1100px;
+	width: 400px;
+	height: 500px;
+}
