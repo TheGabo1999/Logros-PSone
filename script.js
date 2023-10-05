@@ -1,5 +1,5 @@
 
-/*// Declara una variable booleana para rastrear el estado actual
+// Declara una variable booleana para rastrear el estado actual
 let imagen1Visible = true;
 
 // Obtén referencias a la imagen y al botón
@@ -28,7 +28,7 @@ achievementUnlock.addEventListener('click', function() {
 
     // Invierte el valor booleano para el próximo clic
     imagen1Visible = !imagen1Visible;
-});*/
+});
 
 
 
